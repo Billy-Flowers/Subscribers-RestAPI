@@ -7,3 +7,5 @@ The Subscribers API is a beginner-friendly backend project designed to help unde
 - Get a single subscriber by ID
 - Update a subscriber's details
 - Delete a subscriber
+
+This project is perfect for learning how backend systems work using JavaScript and Express.
