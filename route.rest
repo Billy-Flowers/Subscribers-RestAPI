@@ -2,14 +2,26 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/12
-
+GET http://localhost:3000/subscribers/id
 ###
 
 POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "Billy",
-    "subscribedToChannel": "Pewdipie" 
+    "name": "Billy",                        // id is auto assigned by js
+    "subscribedToChannel": "Pewdiepie" 
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/id
+
+###
+
+PATCH http://localhost:3000/subscribers/id
+Content-Type: application/json
+
+{
+    "subscribedToChannel": "T-Series" 
 }
